@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - EasyTask.Web</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EasyTask.Web</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EasyTask</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -19,10 +20,16 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Crear Usuario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Iniciar Sesión</a>
                         </li>
                     </ul>
                 </div>
@@ -30,6 +37,30 @@
         </nav>
     </header>
     <div class="container">
+        <nav id="menu" class="left show">
+            <ul>
+                <li><a href="#" class="active"><i class="fa fa-home"></i>Inicio</a></li>
+                <li><a href="#"><i class="fa fa-product-hunt"></i>Productos</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>Clientes</a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart"></i>Proveedores</a></li>
+                <li><a href="#"><i class="fa fa-shopping-basket"></i>Cargar Compra</a></li>
+                <li><a href="#"><i class="fa fa-volume-control-phone"></i>Parameters</a></li>
+                <li>
+                    <a href="#"><i class="fa fa-laptop"></i>Servicios <i class="fa fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">Servicio 1</a></li>
+                        <li><a href="#">Servicio 2</a></li>
+                        <li><a href="#">Servicio 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fa fa-user-plus"></i>Usuarios</a></li>
+                <li><a href="#"><i class="fa fa-info-circle"></i>Acerca de</a></li>
+                <li><a href="#"><i class="fa fa-phone"></i>Contacto</a></li>
+            </ul>
+            <a href="#" id="showmenu">
+                <i class="fa fa-align-justify"></i>
+            </a>
+        </nav>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -37,7 +68,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - EasyTask.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - Pagina wen desarrollada por <strong>Nelson Pino Telefono: 829-9783032</strong><a asp-area="" asp-controller="Home" asp-action="Privacy"> Privacidad</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -46,3 +77,15 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+<script>
+    $("#showmenu").click(function (e) {
+        $("#menu").toggleClass("show");
+    });
+    $("#menu a").click(function (event) {
+        if ($(this).next('ul').length) {
+            event.preventDefault();
+            $(this).next().toggle('fast');
+            $(this).children('i:last-child').toggleClass('fa-caret-ddown fa-caret-left')
+        }
+    });
+</script>
