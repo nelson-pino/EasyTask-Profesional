@@ -1,0 +1,12 @@
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\bin\Debug\net5.0\EasyTask.Common.deps.json
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\bin\Debug\net5.0\EasyTask.Common.dll
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\bin\Debug\net5.0\ref\EasyTask.Common.dll
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\bin\Debug\net5.0\EasyTask.Common.pdb
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\obj\Debug\net5.0\EasyTask.Common.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\obj\Debug\net5.0\EasyTask.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\obj\Debug\net5.0\EasyTask.Common.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\obj\Debug\net5.0\EasyTask.Common.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\obj\Debug\net5.0\EasyTask.Common.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\obj\Debug\net5.0\EasyTask.Common.dll
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\obj\Debug\net5.0\ref\EasyTask.Common.dll
+C:\Users\USUARIO\source\repos\EasyTaskProfesional\EasyTask.Common\obj\Debug\net5.0\EasyTask.Common.pdb

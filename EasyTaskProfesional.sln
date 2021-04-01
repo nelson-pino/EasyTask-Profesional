@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyTask.Web", "EasyTask.Web\EasyTask.Web.csproj", "{2B0F5217-A716-4EB1-9831-69FA20BC9F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyTask.Common", "EasyTask.Common\EasyTask.Common.csproj", "{C7EF20C0-560E-44E9-AC46-81CDEFA97E1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0F5217-A716-4EB1-9831-69FA20BC9F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0F5217-A716-4EB1-9831-69FA20BC9F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0F5217-A716-4EB1-9831-69FA20BC9F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0F5217-A716-4EB1-9831-69FA20BC9F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EF20C0-560E-44E9-AC46-81CDEFA97E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EF20C0-560E-44E9-AC46-81CDEFA97E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EF20C0-560E-44E9-AC46-81CDEFA97E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EF20C0-560E-44E9-AC46-81CDEFA97E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B1DC62E-3398-4BD1-A9BB-2320A537AE9B}
+	EndGlobalSection
+EndGlobal
