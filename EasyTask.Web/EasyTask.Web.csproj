@@ -18,4 +18,8 @@
     <ProjectReference Include="..\EasyTask.Common\EasyTask.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

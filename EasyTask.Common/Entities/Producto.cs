@@ -18,7 +18,7 @@ namespace EasyTask.Common.Entities
         public string ProductName { get; set; }
 
         [Display(Name = "Precio $")]
-        public decimal Price { get; set; }
+        public double Price { get; set; }
 
         [Display(Name = "Categoria")]
         public string Category { get; set; }
@@ -28,5 +28,6 @@ namespace EasyTask.Common.Entities
 
         [DataType(DataType.Date)]
         public DateTime Fecha_Registro { get; set; }
+        public string Path_Imagen { get; set; }
     }
 }

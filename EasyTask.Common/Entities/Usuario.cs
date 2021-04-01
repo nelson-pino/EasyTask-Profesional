@@ -13,5 +13,6 @@ namespace EasyTask.Common.Entities
         public string NameUser { get; set; }
         public string PassWord { get; set; }
         public string TypeUser { get; set; }
+        public string Path_Imagen { get; set; }
     }
 }
